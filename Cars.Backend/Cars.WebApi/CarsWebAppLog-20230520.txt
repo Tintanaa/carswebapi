@@ -1,0 +1,129 @@
+2023-05-20 13:59:19.331 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-20 13:59:19.925 +06:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-20 13:59:20.038 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-20 13:59:20.840 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-20 13:59:20.841 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-20 13:59:20.841 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-20 13:59:20.841 +06:00 [INF] Hosting environment: Development
+2023-05-20 13:59:20.841 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-20 13:59:22.624 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-05-20 13:59:22.916 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 301 0 - 302.5585ms
+2023-05-20 13:59:22.918 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-20 13:59:23.434 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 516.4475ms
+2023-05-20 13:59:23.501 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui.css - -
+2023-05-20 13:59:23.502 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2023-05-20 13:59:23.502 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2023-05-20 13:59:23.502 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-20 13:59:23.517 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-20 13:59:23.535 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 18.2858ms
+2023-05-20 13:59:23.602 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-05-20 13:59:23.602 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-20 13:59:23.603 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui.css - - - 200 143410 text/css 101.9363ms
+2023-05-20 13:59:23.603 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 200 336841 application/javascript 100.5551ms
+2023-05-20 13:59:23.696 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 193.9489ms
+2023-05-20 13:59:23.710 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-05-20 13:59:23.710 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 200 1097461 application/javascript 208.3173ms
+2023-05-20 13:59:24.019 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon-32x32.png - -
+2023-05-20 13:59:24.021 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-20 13:59:24.022 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon-32x32.png - - - 200 628 image/png 2.2517ms
+2023-05-20 13:59:24.149 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-20 13:59:24.392 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 242.4183ms
+2023-05-20 14:11:56.871 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-20 14:11:57.114 +06:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-20 14:11:57.189 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-20 14:11:57.690 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-20 14:11:57.690 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-20 14:11:57.690 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-20 14:11:57.690 +06:00 [INF] Hosting environment: Development
+2023-05-20 14:11:57.690 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-20 14:11:58.690 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-20 14:11:59.105 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 413.8898ms
+2023-05-20 14:11:59.197 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-20 14:11:59.197 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui.css - -
+2023-05-20 14:11:59.202 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.4808ms
+2023-05-20 14:11:59.214 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-20 14:11:59.254 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-20 14:11:59.254 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui.css - - - 0 143410 text/css 57.0049ms
+2023-05-20 14:11:59.633 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 418.0709ms
+2023-05-20 14:11:59.661 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon-32x32.png - -
+2023-05-20 14:11:59.668 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-20 14:11:59.668 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon-32x32.png - - - 0 628 image/png 6.4100ms
+2023-05-20 14:11:59.852 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-20 14:12:00.129 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 277.0355ms
+2023-05-20 14:16:32.931 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/v1/Car - -
+2023-05-20 14:16:37.642 +06:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: 'System.String'.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:44386)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-05-20 14:16:37.891 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/v1/Car - - - 500 - application/json 4959.0923ms
+2023-05-20 14:16:55.206 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/123456/Car - -
+2023-05-20 14:16:55.215 +06:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '123456'. Candidate actions: Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)
+2023-05-20 14:16:55.219 +06:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-05-20 14:16:55.286 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/123456/Car - - - 500 - application/json 80.3629ms
+2023-05-20 14:16:56.267 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/123456/Car - -
+2023-05-20 14:16:56.267 +06:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '123456'. Candidate actions: Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)
+2023-05-20 14:16:56.270 +06:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-05-20 14:16:56.294 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/123456/Car - - - 500 - application/json 26.8461ms
+2023-05-20 14:16:56.464 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/123456/Car - -
+2023-05-20 14:16:56.465 +06:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '123456'. Candidate actions: Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)
+2023-05-20 14:16:56.465 +06:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-05-20 14:16:56.493 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/123456/Car - - - 500 - application/json 28.8919ms
+2023-05-20 14:16:56.682 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/123456/Car - -
+2023-05-20 14:16:56.682 +06:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '123456'. Candidate actions: Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)
+2023-05-20 14:16:56.683 +06:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-05-20 14:16:56.709 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/123456/Car - - - 500 - application/json 26.8693ms
+2023-05-20 14:22:33.985 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-20 14:22:34.200 +06:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-20 14:22:34.260 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-20 14:22:34.563 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-20 14:22:34.563 +06:00 [INF] Hosting environment: Development
+2023-05-20 14:22:34.563 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-20 14:22:34.607 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-20 14:22:35.453 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 848.6947ms
+2023-05-20 14:22:35.489 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-20 14:22:35.501 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-20 14:22:35.550 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 60.4270ms
+2023-05-20 14:22:35.676 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 175.0752ms
+2023-05-20 14:22:35.767 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/favicon-32x32.png - -
+2023-05-20 14:22:35.783 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-20 14:22:35.784 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/favicon-32x32.png - - - 200 628 image/png 16.9331ms
+2023-05-20 14:22:35.878 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-20 14:22:36.058 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.5950ms

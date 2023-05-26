@@ -1,0 +1,138 @@
+2023-05-10 20:41:50.216 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-10 20:41:50.869 +06:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-10 20:41:51.002 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Notes" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Notes" PRIMARY KEY,
+    "UserId" TEXT NOT NULL,
+    "Title" TEXT NULL,
+    "Details" TEXT NULL,
+    "CreationDate" TEXT NOT NULL,
+    "EditDate" TEXT NULL
+);
+2023-05-10 20:41:51.002 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Notes_Id" ON "Notes" ("Id");
+2023-05-10 20:41:51.197 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 20:41:52.191 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-10 20:41:52.191 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-10 20:41:52.192 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 20:41:52.192 +06:00 [INF] Hosting environment: Development
+2023-05-10 20:41:52.192 +06:00 [INF] Content root path: D:\Backendocars\Notes-main\Notes.Backend\Notes.WebApi
+2023-05-10 20:41:58.985 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-05-10 20:42:42.895 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-10 20:42:43.160 +06:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-10 20:42:43.238 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 20:42:43.765 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-10 20:42:43.765 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-10 20:42:43.765 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 20:42:43.766 +06:00 [INF] Hosting environment: Development
+2023-05-10 20:42:43.766 +06:00 [INF] Content root path: D:\Backendocars\Notes-main\Notes.Backend\Notes.WebApi
+2023-05-10 20:42:44.583 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-05-10 20:42:44.695 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 301 0 - 114.9965ms
+2023-05-10 20:42:44.704 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-10 20:42:45.005 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 300.4391ms
+2023-05-10 20:42:45.049 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui.css - -
+2023-05-10 20:42:45.050 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2023-05-10 20:42:45.050 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2023-05-10 20:42:45.051 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-10 20:42:45.051 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 20:42:45.054 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 2.9507ms
+2023-05-10 20:42:45.098 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-05-10 20:42:45.098 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-10 20:42:45.099 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 200 336841 application/javascript 48.7111ms
+2023-05-10 20:42:45.099 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui.css - - - 200 143410 text/css 50.0676ms
+2023-05-10 20:42:45.106 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-05-10 20:42:45.107 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 200 1097461 application/javascript 57.1626ms
+2023-05-10 20:42:45.135 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.3700ms
+2023-05-10 20:42:45.298 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon-32x32.png - -
+2023-05-10 20:42:45.299 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-10 20:42:45.299 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon-32x32.png - - - 200 628 image/png 1.0753ms
+2023-05-10 20:42:45.412 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-10 20:42:45.577 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.0323ms
+2023-05-10 20:43:51.835 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - -
+2023-05-10 20:43:51.839 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 8.8058ms
+2023-05-10 20:43:53.658 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-10 20:43:53.667 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.7092ms
+2023-05-10 20:43:55.547 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - -
+2023-05-10 20:43:55.552 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 5.4639ms
+2023-05-10 20:44:53.105 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-10 20:44:53.329 +06:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-10 20:44:53.397 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 20:44:53.850 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-10 20:44:53.850 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-10 20:44:53.851 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 20:44:53.851 +06:00 [INF] Hosting environment: Development
+2023-05-10 20:44:53.851 +06:00 [INF] Content root path: D:\Backendocars\Notes-main\Notes.Backend\Notes.WebApi
+2023-05-10 20:44:54.416 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-10 20:44:54.656 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 243.6820ms
+2023-05-10 20:44:54.698 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 20:44:54.699 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-10 20:44:54.703 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.4292ms
+2023-05-10 20:44:54.732 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.3808ms
+2023-05-10 20:44:54.990 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-10 20:44:55.132 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.6204ms
+2023-05-10 20:46:01.177 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-10 20:46:01.427 +06:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-10 20:46:01.497 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 20:46:01.964 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-10 20:46:01.964 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-10 20:46:01.965 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 20:46:01.965 +06:00 [INF] Hosting environment: Development
+2023-05-10 20:46:01.965 +06:00 [INF] Content root path: D:\Backendocars\Notes-main\Notes.Backend\Notes.WebApi
+2023-05-10 20:46:02.588 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-10 20:46:02.829 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 243.4916ms
+2023-05-10 20:46:02.871 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-10 20:46:02.872 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 20:46:02.876 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.8999ms
+2023-05-10 20:46:02.906 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.0407ms
+2023-05-10 20:46:03.159 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-10 20:46:03.307 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.7212ms
+2023-05-10 20:46:42.763 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-10 20:46:43.008 +06:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-10 20:46:43.085 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 20:46:43.608 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-10 20:46:43.608 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-10 20:46:43.608 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 20:46:43.608 +06:00 [INF] Hosting environment: Development
+2023-05-10 20:46:43.608 +06:00 [INF] Content root path: D:\Backendocars\Notes-main\Notes.Backend\Notes.WebApi
+2023-05-10 20:46:44.118 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-10 20:47:33.404 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-10 20:47:33.690 +06:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-10 20:47:33.763 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 20:47:34.274 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-10 20:47:34.274 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-10 20:47:34.275 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 20:47:34.275 +06:00 [INF] Hosting environment: Development
+2023-05-10 20:47:34.275 +06:00 [INF] Content root path: D:\Backendocars\Notes-main\Notes.Backend\Notes.WebApi
+2023-05-10 20:47:35.186 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-10 20:47:35.456 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 273.3451ms
+2023-05-10 20:47:35.528 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 20:47:35.528 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-10 20:47:35.532 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.1247ms
+2023-05-10 20:47:35.574 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.9599ms
+2023-05-10 20:47:35.852 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-10 20:47:36.042 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.6249ms
+2023-05-10 20:48:04.733 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-10 20:48:04.967 +06:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-10 20:48:05.043 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 20:48:05.537 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-10 20:48:05.537 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-10 20:48:05.537 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 20:48:05.537 +06:00 [INF] Hosting environment: Development
+2023-05-10 20:48:05.537 +06:00 [INF] Content root path: D:\Backendocars\Notes-main\Notes.Backend\Notes.WebApi
+2023-05-10 20:48:05.979 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-10 20:48:06.219 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 242.5851ms
+2023-05-10 20:48:06.266 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-10 20:48:06.266 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 20:48:06.271 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.3569ms
+2023-05-10 20:48:06.286 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.8969ms
+2023-05-10 20:48:06.454 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-10 20:48:06.590 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.3141ms
+2023-05-10 20:48:09.691 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-10 20:48:09.700 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 9.1745ms

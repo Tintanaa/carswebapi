@@ -1,0 +1,66 @@
+2023-05-11 12:41:23.753 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-11 12:41:24.521 +06:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-11 12:41:24.727 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Car" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Car" PRIMARY KEY,
+    "UserId" TEXT NOT NULL,
+    "Title" TEXT NULL,
+    "Details" TEXT NULL,
+    "Country" TEXT NULL,
+    "UsageBenzin" INTEGER NOT NULL,
+    "SerialNumber" INTEGER NOT NULL,
+    "CreationDate" TEXT NOT NULL,
+    "EditDate" TEXT NULL
+);
+2023-05-11 12:41:24.728 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Car_Id" ON "Car" ("Id");
+2023-05-11 12:41:24.835 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 12:41:26.083 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-11 12:41:26.083 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-11 12:41:26.083 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-11 12:41:26.083 +06:00 [INF] Hosting environment: Development
+2023-05-11 12:41:26.083 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-11 12:41:27.575 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-11 12:41:27.939 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 367.5397ms
+2023-05-11 12:41:27.993 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 12:41:27.993 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-11 12:41:27.998 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.9144ms
+2023-05-11 12:41:28.207 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon-32x32.png - -
+2023-05-11 12:41:28.221 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-11 12:41:28.221 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon-32x32.png - - - 0 628 image/png 14.0982ms
+2023-05-11 12:41:28.355 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 362.4409ms
+2023-05-11 12:41:28.535 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-11 12:41:28.770 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.8267ms
+2023-05-11 12:42:04.569 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/123/Car - -
+2023-05-11 12:42:04.612 +06:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '123'. Candidate actions: Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)
+2023-05-11 12:42:05.142 +06:00 [INF] Executing endpoint 'null'
+2023-05-11 12:42:05.151 +06:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-05-11 12:42:05.161 +06:00 [INF] Executed endpoint 'null'
+2023-05-11 12:42:05.161 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/123/Car - - - 400 - application/json;+charset=utf-8 592.2966ms
+2023-05-11 12:45:57.053 +06:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/V1/Car application/json 110
+2023-05-11 12:45:57.059 +06:00 [INF] CORS policy execution successful.
+2023-05-11 12:45:57.061 +06:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/V1/Car application/json 110 - 404 0 - 7.9634ms
+2023-05-11 12:46:25.363 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-11 12:46:25.368 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.4084ms
+2023-05-11 17:29:07.602 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-11 17:29:08.144 +06:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-11 17:29:08.225 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 17:29:08.839 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-11 17:29:08.839 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-11 17:29:08.839 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-11 17:29:08.840 +06:00 [INF] Hosting environment: Development
+2023-05-11 17:29:08.840 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-11 17:29:10.587 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-11 17:29:10.923 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 339.3338ms
+2023-05-11 17:29:10.968 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 17:29:10.968 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-11 17:29:10.971 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.3358ms
+2023-05-11 17:29:11.033 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.2079ms
+2023-05-11 17:29:11.181 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-11 17:29:11.330 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.2640ms
+2023-05-11 17:29:13.558 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-11 17:29:13.648 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.5156ms
+2023-05-11 17:30:13.850 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-11 17:30:13.880 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 30.2912ms

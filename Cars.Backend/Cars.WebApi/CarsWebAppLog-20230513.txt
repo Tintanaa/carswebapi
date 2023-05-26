@@ -1,0 +1,52 @@
+2023-05-13 09:10:27.162 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-13 09:10:28.075 +06:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-13 09:10:28.221 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-13 09:10:29.292 +06:00 [INF] Now listening on: https://localhost:5001
+2023-05-13 09:10:29.301 +06:00 [INF] Now listening on: http://localhost:5000
+2023-05-13 09:10:29.306 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-13 09:10:29.306 +06:00 [INF] Hosting environment: Development
+2023-05-13 09:10:29.306 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-13 09:10:31.798 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2023-05-13 09:10:33.034 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 1243.8997ms
+2023-05-13 09:10:33.237 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-05-13 09:10:33.237 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-05-13 09:10:33.305 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 68.2330ms
+2023-05-13 09:10:33.716 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon-32x32.png - -
+2023-05-13 09:10:33.742 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-13 09:10:33.742 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon-32x32.png - - - 0 628 image/png 26.5917ms
+2023-05-13 09:10:33.850 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 613.5225ms
+2023-05-13 09:10:34.061 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-05-13 09:10:34.383 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 322.2186ms
+2023-05-13 09:15:37.542 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/V1/Car - -
+2023-05-13 09:15:38.894 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/V1/Car - - - 404 0 - 1353.0560ms
+2023-05-13 09:16:37.638 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/V1/Car - -
+2023-05-13 09:16:37.646 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/V1/Car - - - 404 0 - 7.7684ms
+2023-05-13 09:16:38.643 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/V1/Car - -
+2023-05-13 09:16:38.649 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/V1/Car - - - 404 0 - 6.2503ms
+2023-05-13 09:16:47.088 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/1/Car - -
+2023-05-13 09:16:47.106 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-13 09:16:47.118 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-13 09:16:47.119 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/1/Car - - - 401 0 - 30.9435ms
+2023-05-13 09:16:47.919 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/1/Car - -
+2023-05-13 09:16:47.926 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-13 09:16:47.932 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-13 09:16:47.932 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/1/Car - - - 401 0 - 13.7666ms
+2023-05-13 09:16:48.490 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/1/Car - -
+2023-05-13 09:16:48.493 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-13 09:16:48.493 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-13 09:16:48.494 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/1/Car - - - 401 0 - 3.7033ms
+2023-05-13 09:16:48.855 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/1/Car - -
+2023-05-13 09:16:48.855 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-13 09:16:48.855 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-13 09:16:48.856 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/1/Car - - - 401 0 - 1.0761ms
+2023-05-13 09:17:12.818 +06:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/1/Car application/json 110
+2023-05-13 09:17:12.828 +06:00 [INF] CORS policy execution successful.
+2023-05-13 09:17:12.830 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-13 09:17:12.830 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-13 09:17:12.832 +06:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/1/Car application/json 110 - 401 0 - 14.1329ms

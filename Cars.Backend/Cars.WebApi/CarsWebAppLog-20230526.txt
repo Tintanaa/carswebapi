@@ -1,0 +1,677 @@
+2023-05-26 02:12:01.275 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 02:12:02.956 +06:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 02:12:03.096 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 02:12:03.964 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 02:12:03.964 +06:00 [INF] Hosting environment: Development
+2023-05-26 02:12:03.964 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 02:12:04.055 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 02:12:05.836 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 1788.4494ms
+2023-05-26 02:12:05.880 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 02:12:05.886 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 02:12:05.886 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.3450ms
+2023-05-26 02:12:06.019 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 133.2943ms
+2023-05-26 02:12:06.188 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 02:12:06.367 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.7749ms
+2023-05-26 02:41:06.344 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 02:41:06.932 +06:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 02:41:07.013 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 02:41:07.422 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 02:41:07.422 +06:00 [INF] Hosting environment: Development
+2023-05-26 02:41:07.423 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 02:41:07.472 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 02:41:07.824 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 349.7731ms
+2023-05-26 02:41:07.851 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger-ui.css - -
+2023-05-26 02:41:07.851 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 02:41:07.857 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 02:41:07.879 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 26.5098ms
+2023-05-26 02:41:07.894 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-26 02:41:07.895 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger-ui.css - - - 0 143410 text/css 43.1289ms
+2023-05-26 02:41:07.936 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.9988ms
+2023-05-26 02:41:08.215 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/favicon-32x32.png - -
+2023-05-26 02:41:08.217 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-26 02:41:08.217 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/favicon-32x32.png - - - 0 628 image/png 2.5177ms
+2023-05-26 02:41:08.336 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 02:41:08.474 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.2214ms
+2023-05-26 02:58:21.764 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 02:58:22.002 +06:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 02:58:22.068 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 02:58:22.398 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 02:58:22.398 +06:00 [INF] Hosting environment: Development
+2023-05-26 02:58:22.398 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 02:58:22.443 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 02:58:22.744 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 304.6796ms
+2023-05-26 02:58:22.796 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 02:58:22.802 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 02:58:22.804 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.0248ms
+2023-05-26 02:58:22.873 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.7357ms
+2023-05-26 02:58:23.019 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 02:58:23.160 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.1448ms
+2023-05-26 03:00:12.687 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 03:00:12.931 +06:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 03:00:13.010 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 03:00:13.349 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 03:00:13.350 +06:00 [INF] Hosting environment: Development
+2023-05-26 03:00:13.350 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 03:00:13.396 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 03:00:13.708 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 313.8377ms
+2023-05-26 03:00:13.755 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 03:00:13.757 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 03:00:13.767 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 12.1187ms
+2023-05-26 03:00:13.823 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.5293ms
+2023-05-26 03:00:13.978 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 03:00:14.152 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.0633ms
+2023-05-26 20:37:46.213 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 20:37:46.484 +06:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 20:37:46.575 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 20:37:46.955 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 20:37:46.955 +06:00 [INF] Hosting environment: Development
+2023-05-26 20:37:46.955 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 20:37:47.013 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 20:37:48.432 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 1421.0160ms
+2023-05-26 20:37:48.466 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 20:37:48.466 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger-ui.css - -
+2023-05-26 20:37:48.467 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 20:37:48.485 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 19.2945ms
+2023-05-26 20:37:48.497 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-26 20:37:48.498 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger-ui.css - - - 0 143410 text/css 32.1780ms
+2023-05-26 20:37:48.573 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 105.7764ms
+2023-05-26 20:37:48.659 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/favicon-32x32.png - -
+2023-05-26 20:37:48.662 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-26 20:37:48.662 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/favicon-32x32.png - - - 0 628 image/png 3.4670ms
+2023-05-26 20:37:48.749 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 20:37:48.904 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.1262ms
+2023-05-26 20:38:57.424 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 20:38:57.438 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 14.5176ms
+2023-05-26 20:39:11.004 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 20:39:11.008 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.7319ms
+2023-05-26 20:42:08.285 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 20:42:08.524 +06:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 20:42:08.589 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 20:42:08.871 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 20:42:08.872 +06:00 [INF] Hosting environment: Development
+2023-05-26 20:42:08.872 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 20:42:08.921 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 20:42:09.214 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 295.4534ms
+2023-05-26 20:42:09.243 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 20:42:09.256 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 20:42:09.263 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 19.8724ms
+2023-05-26 20:42:09.343 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.6215ms
+2023-05-26 20:42:09.446 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 20:42:09.599 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.6629ms
+2023-05-26 20:42:13.104 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 20:42:13.115 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.0858ms
+2023-05-26 21:11:00.835 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:11:01.495 +06:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 21:11:01.592 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 21:11:02.047 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 21:11:02.047 +06:00 [INF] Hosting environment: Development
+2023-05-26 21:11:02.047 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 21:11:02.105 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 21:11:02.458 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 357.2532ms
+2023-05-26 21:11:02.516 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 21:11:02.516 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger-ui.css - -
+2023-05-26 21:11:02.517 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 21:11:02.551 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 31.2338ms
+2023-05-26 21:11:02.573 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-26 21:11:02.574 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger-ui.css - - - 0 143410 text/css 57.9112ms
+2023-05-26 21:11:02.616 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 98.1615ms
+2023-05-26 21:11:02.697 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/favicon-32x32.png - -
+2023-05-26 21:11:02.699 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-05-26 21:11:02.699 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/favicon-32x32.png - - - 0 628 image/png 2.7405ms
+2023-05-26 21:11:02.859 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 21:11:03.031 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.1291ms
+2023-05-26 21:13:00.627 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:13:00.665 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:13:00.666 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 39.2001ms
+2023-05-26 21:13:00.670 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:13:00.677 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:13:01.235 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:13:01.241 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:13:01.242 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 572.3231ms
+2023-05-26 21:18:05.080 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:18:05.084 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:18:05.084 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 3.7978ms
+2023-05-26 21:18:05.086 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:18:05.086 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:18:05.091 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:18:05.094 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:18:05.095 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 9.2389ms
+2023-05-26 21:23:59.722 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:23:59.723 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:23:59.726 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 3.3036ms
+2023-05-26 21:23:59.728 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:23:59.728 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:23:59.729 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:23:59.729 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:23:59.730 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.6918ms
+2023-05-26 21:25:25.155 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:25:25.156 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:25:25.158 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 3.0822ms
+2023-05-26 21:25:25.159 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:25:25.159 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:25:25.159 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:25:25.159 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:25:25.160 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.1136ms
+2023-05-26 21:25:29.305 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:25:29.307 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:25:29.307 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:25:29.311 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 5.1598ms
+2023-05-26 21:25:29.354 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/favicon.ico - -
+2023-05-26 21:25:29.356 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/favicon.ico - - - 404 - - 1.2503ms
+2023-05-26 21:31:16.246 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:31:16.249 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:31:16.250 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 3.8526ms
+2023-05-26 21:31:16.252 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:31:16.252 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:31:17.010 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:31:17.013 +06:00 [INF] Authorization was successful.
+2023-05-26 21:31:17.013 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:31:17.042 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:31:17.286 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:31:17.300 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:31:17.621 +06:00 [INF] Executed DbCommand (14ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:31:17.632 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:31:17.647 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 597.5364ms
+2023-05-26 21:31:17.647 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:31:17.650 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 1397.3098ms
+2023-05-26 21:31:46.057 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:31:46.057 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:31:46.060 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 3.5579ms
+2023-05-26 21:31:46.061 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 17
+2023-05-26 21:31:46.063 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:31:46.064 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:31:46.064 +06:00 [INF] Authorization was successful.
+2023-05-26 21:31:46.064 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:31:46.080 +06:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(Cars.WebApi.Models.CreateCarDto) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:31:46.153 +06:00 [INF] Cars Request: CreateCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Title":"Car 1","Details":null,"Country":null,"UsageBenzin":0,"SerialNumber":0,"$type":"CreateCarCommand"}
+2023-05-26 21:31:46.185 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:31:46.405 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (Size = 5), @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Car" ("Id", "Country", "CreationDate", "Details", "EditDate", "SerialNumber", "Title", "UsageBenzin", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-05-26 21:31:46.444 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2023-05-26 21:31:46.451 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Create (Cars.WebApi) in 371.3022ms
+2023-05-26 21:31:46.451 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:31:46.452 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 17 - 200 - application/json;+charset=utf-8 391.3506ms
+2023-05-26 21:31:47.486 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:31:47.486 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:31:47.487 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:31:47.488 +06:00 [INF] Authorization was successful.
+2023-05-26 21:31:47.488 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:31:47.488 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:31:47.489 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:31:47.489 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:31:47.495 +06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:31:47.499 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:31:47.503 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 14.6551ms
+2023-05-26 21:31:47.503 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:31:47.503 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 17.2285ms
+2023-05-26 21:33:13.444 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:33:13.444 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:13.447 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 1.4751ms
+2023-05-26 21:33:13.448 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 17
+2023-05-26 21:33:13.448 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:13.449 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:33:13.449 +06:00 [INF] Authorization was successful.
+2023-05-26 21:33:13.449 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:33:13.449 +06:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(Cars.WebApi.Models.CreateCarDto) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:33:13.451 +06:00 [INF] Cars Request: CreateCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Title":"Car 2","Details":null,"Country":null,"UsageBenzin":0,"SerialNumber":0,"$type":"CreateCarCommand"}
+2023-05-26 21:33:13.452 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:33:13.484 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (Size = 5), @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Car" ("Id", "Country", "CreationDate", "Details", "EditDate", "SerialNumber", "Title", "UsageBenzin", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-05-26 21:33:13.508 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2023-05-26 21:33:13.509 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Create (Cars.WebApi) in 59.1539ms
+2023-05-26 21:33:13.509 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:33:13.509 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 17 - 200 - application/json;+charset=utf-8 61.1344ms
+2023-05-26 21:33:13.942 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:33:13.942 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:13.943 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:33:13.943 +06:00 [INF] Authorization was successful.
+2023-05-26 21:33:13.943 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:33:13.943 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:33:13.946 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:33:13.947 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:33:13.951 +06:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:33:13.953 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:33:13.953 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 10.2956ms
+2023-05-26 21:33:13.954 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:33:13.955 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 13.3716ms
+2023-05-26 21:33:26.886 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:33:26.886 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:26.886 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 0.5780ms
+2023-05-26 21:33:26.889 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 32
+2023-05-26 21:33:26.889 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:26.890 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:33:26.890 +06:00 [INF] Authorization was successful.
+2023-05-26 21:33:26.890 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:33:26.890 +06:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(Cars.WebApi.Models.CreateCarDto) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:33:26.892 +06:00 [INF] Cars Request: CreateCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Title":"Great stuff incoming","Details":null,"Country":null,"UsageBenzin":0,"SerialNumber":0,"$type":"CreateCarCommand"}
+2023-05-26 21:33:26.893 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:33:26.899 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (Size = 20), @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Car" ("Id", "Country", "CreationDate", "Details", "EditDate", "SerialNumber", "Title", "UsageBenzin", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-05-26 21:33:26.942 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2023-05-26 21:33:26.942 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Create (Cars.WebApi) in 52.2288ms
+2023-05-26 21:33:26.942 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:33:26.943 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 32 - 200 - application/json;+charset=utf-8 53.8775ms
+2023-05-26 21:33:27.396 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:33:27.396 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:27.397 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:33:27.397 +06:00 [INF] Authorization was successful.
+2023-05-26 21:33:27.397 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:33:27.397 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:33:27.398 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:33:27.398 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:33:27.401 +06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:33:27.403 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:33:27.403 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 6.0867ms
+2023-05-26 21:33:27.404 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:33:27.404 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 7.9737ms
+2023-05-26 21:33:35.667 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:33:35.667 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:35.668 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 0.4499ms
+2023-05-26 21:33:35.670 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 21
+2023-05-26 21:33:35.670 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:35.671 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:33:35.671 +06:00 [INF] Authorization was successful.
+2023-05-26 21:33:35.671 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:33:35.671 +06:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(Cars.WebApi.Models.CreateCarDto) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:33:35.672 +06:00 [INF] Cars Request: CreateCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Title":"I promise","Details":null,"Country":null,"UsageBenzin":0,"SerialNumber":0,"$type":"CreateCarCommand"}
+2023-05-26 21:33:35.672 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:33:35.675 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (Size = 9), @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Car" ("Id", "Country", "CreationDate", "Details", "EditDate", "SerialNumber", "Title", "UsageBenzin", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-05-26 21:33:35.711 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2023-05-26 21:33:35.712 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Create (Cars.WebApi) in 40.3297ms
+2023-05-26 21:33:35.712 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:33:35.712 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 21 - 200 - application/json;+charset=utf-8 42.0519ms
+2023-05-26 21:33:36.179 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:33:36.179 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:33:36.180 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:33:36.180 +06:00 [INF] Authorization was successful.
+2023-05-26 21:33:36.180 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:33:36.180 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:33:36.180 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:33:36.181 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:33:36.184 +06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:33:36.185 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:33:36.186 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 5.6279ms
+2023-05-26 21:33:36.186 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:33:36.186 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 7.4504ms
+2023-05-26 21:37:17.528 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:37:17.530 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:37:17.530 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:37:17.535 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 6.4975ms
+2023-05-26 21:37:17.567 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/favicon.ico - -
+2023-05-26 21:37:17.570 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/favicon.ico - - - 0 - - 0.9956ms
+2023-05-26 21:40:48.879 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:40:48.880 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:40:48.904 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:40:48.907 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:40:48.908 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 29.0847ms
+2023-05-26 21:40:52.481 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:40:52.485 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:40:52.485 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:40:52.485 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:40:52.486 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 4.7306ms
+2023-05-26 21:40:53.318 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:40:53.318 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:40:53.318 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:40:53.318 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:40:53.319 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.1896ms
+2023-05-26 21:42:40.129 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:42:40.130 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:42:40.130 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:42:40.131 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:42:40.133 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 4.1382ms
+2023-05-26 21:42:42.901 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:42:42.905 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:42:42.905 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:42:42.905 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:42:42.906 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 5.0530ms
+2023-05-26 21:42:47.629 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:42:47.630 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:42:47.630 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:42:47.631 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 2.6103ms
+2023-05-26 21:42:52.153 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:42:52.154 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:42:52.154 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:42:52.154 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.6280ms
+2023-05-26 21:43:11.120 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:43:11.120 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:43:11.120 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 0.3623ms
+2023-05-26 21:43:11.123 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 16
+2023-05-26 21:43:11.124 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:43:11.124 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:43:11.124 +06:00 [INF] Authorization was successful.
+2023-05-26 21:43:11.124 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:43:11.125 +06:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(Cars.WebApi.Models.CreateCarDto) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:43:11.125 +06:00 [INF] Cars Request: CreateCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Title":"car6","Details":null,"Country":null,"UsageBenzin":0,"SerialNumber":0,"$type":"CreateCarCommand"}
+2023-05-26 21:43:11.126 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:43:11.129 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (Size = 4), @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Car" ("Id", "Country", "CreationDate", "Details", "EditDate", "SerialNumber", "Title", "UsageBenzin", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-05-26 21:43:11.142 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2023-05-26 21:43:11.142 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Create (Cars.WebApi) in 17.8175ms
+2023-05-26 21:43:11.143 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 21:43:11.143 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 16 - 200 - application/json;+charset=utf-8 19.7893ms
+2023-05-26 21:43:11.607 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:43:11.608 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:43:11.611 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:43:11.611 +06:00 [INF] Authorization was successful.
+2023-05-26 21:43:11.611 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:43:11.611 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:43:11.611 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:43:11.612 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:43:11.615 +06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:43:11.616 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:43:11.616 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 5.14ms
+2023-05-26 21:43:11.616 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:43:11.617 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 9.2908ms
+2023-05-26 21:46:12.839 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Cars - -
+2023-05-26 21:46:12.845 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Cars - - - 404 - - 5.5325ms
+2023-05-26 21:46:17.451 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/cars - -
+2023-05-26 21:46:17.453 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/cars - - - 404 - - 1.4731ms
+2023-05-26 21:46:20.707 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/car - -
+2023-05-26 21:46:20.724 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:46:20.724 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:46:20.724 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/car - - - 401 - - 17.2838ms
+2023-05-26 21:47:52.457 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1,0/Car - -
+2023-05-26 21:47:52.461 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:47:52.462 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1,0/Car - - - 404 - - 4.8401ms
+2023-05-26 21:47:58.913 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:47:58.913 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:47:58.913 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:47:58.913 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:47:58.914 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.4200ms
+2023-05-26 21:48:00.046 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:00.047 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:00.047 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:00.047 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:00.047 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.0141ms
+2023-05-26 21:48:00.427 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:00.428 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:00.428 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:00.428 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:00.428 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.0325ms
+2023-05-26 21:48:00.633 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:00.633 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:00.633 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:00.633 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:00.634 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 0.8649ms
+2023-05-26 21:48:00.810 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:00.810 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:00.811 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:00.811 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:00.811 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.0690ms
+2023-05-26 21:48:00.986 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:00.987 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:00.987 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:00.987 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:00.988 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.2272ms
+2023-05-26 21:48:01.172 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:01.172 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:01.172 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:01.172 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:01.173 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.2186ms
+2023-05-26 21:48:01.318 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:01.318 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:01.318 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:01.318 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:01.319 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 0.8632ms
+2023-05-26 21:48:01.484 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:01.484 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:01.484 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:01.484 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:01.484 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 0.7983ms
+2023-05-26 21:48:01.660 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:01.660 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:01.660 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:01.660 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:01.660 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 0.9505ms
+2023-05-26 21:48:01.992 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:48:01.992 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:48:01.992 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:48:01.992 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:48:01.993 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 0.9245ms
+2023-05-26 21:49:47.952 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:49:47.952 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:49:47.953 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:49:47.953 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:49:47.956 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 4.0791ms
+2023-05-26 21:49:48.587 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:49:48.588 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:49:48.591 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:49:48.591 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:49:48.592 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 4.8037ms
+2023-05-26 21:49:48.819 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:49:48.819 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:49:48.819 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:49:48.820 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:49:48.820 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.2246ms
+2023-05-26 21:49:49.016 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:49:49.017 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:49:49.017 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:49:49.017 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:49:49.017 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 0.9379ms
+2023-05-26 21:49:49.230 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:49:49.230 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:49:49.230 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:49:49.230 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:49:49.231 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.0035ms
+2023-05-26 21:49:51.207 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:49:51.208 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:49:51.208 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:49:51.208 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:49:51.209 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.3760ms
+2023-05-26 21:49:52.625 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:49:52.626 +06:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token: CfDJ8M7o4e_XXO9MvirTn3_IsvvYWjvmdStrntNvcdg-ofiXTjUE2YDXh6yEE8Rtzoo0kJ0xGxQrmnQkvq1apjI3rCEY8mmf37IOGG-rMBVuM-By33IXTK4JInLf0F0nEpHPdV0QQwLIqwwcEH9hwGNGmB9djn9KaEukurzDRflgiANKn4a_TVe4-As9s5VzGQBoOwKOVB_WnT248mCvb215rFYcPfV9OpWENpddWBTOG334jp0Gof8ot7knPtq0a_nmWY4B52KGrvrS8NIZ-TjF2vTjZ9IgT7jgXyYNCNocAcji-dBhwH6HjlBuEz3fl9Z73ujq_tUX25r104yTFkxu_T56YkbpoldRDEI251DwmFDf5OaJliRigBSmp7vAxcR3VzvPCI1tm-TAm5p5xs_Y4gjFXbMJWWU7HjolOirRumm1lEe-hoQhamzqXB01pgLO1eWKCyGtu1dDQ7fovEVudS4soxcDrKjU19Fy2b1EVhtfFReQu5OANihHpit-4J5F_VKG7QLWOfApsWT1TZC_ae2yn_3-cqP22xVCSjALN-uda3-W_dO4poEXxtDcQY_ohtxSiK-ZBH8qrOLFxTmE3IAb284CXln7Oczcr4hdUlyAy44de9nMcFT6WzxUvl9u4TsTPEx-JkpxIQur0xWDCMVeHaaTZODfP2oc2KxOwppLu01hIQYFkzewb6k6lKTUfapHL2IlIs_NkrihCyar5ocl2FWBM1_6y78I6SlHILDXGoKS_CdWn3EZWn_cPpnl6iF8h-7XIIPvOM8iLDjd5h-I2Nw-72NUke9mybDLM-xA
+2023-05-26 21:49:52.626 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:49:52.626 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:49:52.627 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 1.1753ms
+2023-05-26 21:54:51.518 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:54:51.886 +06:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-05-26 21:54:51.965 +06:00 [INF] User profile is available. Using 'C:\Users\miiag\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-26 21:54:52.341 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-26 21:54:52.341 +06:00 [INF] Hosting environment: Development
+2023-05-26 21:54:52.341 +06:00 [INF] Content root path: D:\Backendocars\Cars\Cars.Backend\Cars.WebApi
+2023-05-26 21:54:52.404 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/index.html - -
+2023-05-26 21:54:52.404 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/ - -
+2023-05-26 21:54:52.503 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/ - - - 0 - - 104.5809ms
+2023-05-26 21:54:52.909 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/index.html - - - 200 - text/html;charset=utf-8 510.9850ms
+2023-05-26 21:54:53.476 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 21:54:53.486 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - -
+2023-05-26 21:54:53.499 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 22.8146ms
+2023-05-26 21:54:53.839 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 352.7678ms
+2023-05-26 21:54:54.210 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/favicon-16x16.png - -
+2023-05-26 21:54:54.234 +06:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2023-05-26 21:54:54.234 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/favicon-16x16.png - - - 200 665 image/png 24.3159ms
+2023-05-26 21:54:54.441 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - -
+2023-05-26 21:54:54.650 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.9071ms
+2023-05-26 21:55:16.026 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:55:16.064 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:55:16.066 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 39.7269ms
+2023-05-26 21:55:16.068 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:55:16.072 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:55:16.163 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-26 21:55:16.167 +06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-26 21:55:16.168 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 401 - - 100.5693ms
+2023-05-26 21:55:41.128 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:55:41.131 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:55:41.132 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 4.2584ms
+2023-05-26 21:55:41.133 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:55:41.134 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:55:41.707 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:55:41.710 +06:00 [INF] Authorization was successful.
+2023-05-26 21:55:41.710 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:55:41.733 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:55:42.013 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:55:42.028 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:55:42.344 +06:00 [INF] Executed DbCommand (14ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:55:42.357 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:55:42.377 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 635.9099ms
+2023-05-26 21:55:42.377 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:55:42.381 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 1247.6948ms
+2023-05-26 21:59:28.673 +06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:59:28.673 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:59:28.674 +06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44397/api/1.0/Car - - - 204 - - 4.0364ms
+2023-05-26 21:59:28.677 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 21:59:28.708 +06:00 [INF] CORS policy execution successful.
+2023-05-26 21:59:28.710 +06:00 [INF] Successfully validated the token.
+2023-05-26 21:59:28.710 +06:00 [INF] Authorization was successful.
+2023-05-26 21:59:28.711 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:59:28.711 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 21:59:28.712 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 21:59:28.751 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 21:59:28.760 +06:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 21:59:28.762 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 21:59:28.763 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 51.3344ms
+2023-05-26 21:59:28.763 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 21:59:28.763 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 85.8241ms
+2023-05-26 22:00:42.182 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car - -
+2023-05-26 22:00:42.183 +06:00 [INF] Successfully validated the token.
+2023-05-26 22:00:42.183 +06:00 [INF] Authorization was successful.
+2023-05-26 22:00:42.183 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 22:00:42.183 +06:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarList.CarListVm]] GetAll() on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 22:00:42.185 +06:00 [INF] Cars Request: GetCarListQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","$type":"GetCarListQuery"}
+2023-05-26 22:00:42.186 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 22:00:42.195 +06:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_UserId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Title"
+FROM "Car" AS "c"
+WHERE "c"."UserId" = @__request_UserId_0
+2023-05-26 22:00:42.199 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarList.CarListVm'.
+2023-05-26 22:00:42.202 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi) in 19.0454ms
+2023-05-26 22:00:42.203 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.GetAll (Cars.WebApi)'
+2023-05-26 22:00:42.206 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car - - - 200 - application/json;+charset=utf-8 23.9578ms
+2023-05-26 22:02:56.870 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 136
+2023-05-26 22:02:56.870 +06:00 [INF] CORS policy execution successful.
+2023-05-26 22:02:56.873 +06:00 [INF] Successfully validated the token.
+2023-05-26 22:02:56.873 +06:00 [INF] Authorization was successful.
+2023-05-26 22:02:56.873 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 22:02:56.887 +06:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(Cars.WebApi.Models.CreateCarDto) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 22:02:56.966 +06:00 [INF] Cars Request: CreateCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Title":"bugatti","Details":"what color is your bugatti?","Country":"france","UsageBenzin":999,"SerialNumber":999,"$type":"CreateCarCommand"}
+2023-05-26 22:02:56.970 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 22:02:57.173 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?' (Size = 6), @p2='?', @p3='?' (Size = 27), @p4='?', @p5='?', @p6='?' (Size = 7), @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Car" ("Id", "Country", "CreationDate", "Details", "EditDate", "SerialNumber", "Title", "UsageBenzin", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-05-26 22:02:57.218 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2023-05-26 22:02:57.219 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Create (Cars.WebApi) in 331.6815ms
+2023-05-26 22:02:57.219 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 22:02:57.223 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 136 - 200 - application/json;+charset=utf-8 352.4975ms
+2023-05-26 22:03:20.491 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 132
+2023-05-26 22:03:20.491 +06:00 [INF] CORS policy execution successful.
+2023-05-26 22:03:20.495 +06:00 [INF] Successfully validated the token.
+2023-05-26 22:03:20.495 +06:00 [INF] Authorization was successful.
+2023-05-26 22:03:20.495 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 22:03:20.495 +06:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(Cars.WebApi.Models.CreateCarDto) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 22:03:20.499 +06:00 [INF] Cars Request: CreateCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Title":"bugatti","Details":"what color is your bugatti?","Country":"france","UsageBenzin":9,"SerialNumber":9,"$type":"CreateCarCommand"}
+2023-05-26 22:03:20.502 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 22:03:20.511 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?' (Size = 6), @p2='?', @p3='?' (Size = 27), @p4='?', @p5='?', @p6='?' (Size = 7), @p7='?', @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Car" ("Id", "Country", "CreationDate", "Details", "EditDate", "SerialNumber", "Title", "UsageBenzin", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-05-26 22:03:20.532 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2023-05-26 22:03:20.533 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Create (Cars.WebApi) in 37.3759ms
+2023-05-26 22:03:20.533 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Create (Cars.WebApi)'
+2023-05-26 22:03:20.533 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44397/api/1.0/Car application/json 132 - 200 - application/json;+charset=utf-8 42.4814ms
+2023-05-26 22:04:56.129 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44397/api/1.0/Car/d6cda8cb-416d-4e30-97c5-9d1522f73c94 - -
+2023-05-26 22:04:56.158 +06:00 [INF] Successfully validated the token.
+2023-05-26 22:04:56.158 +06:00 [INF] Authorization was successful.
+2023-05-26 22:04:56.158 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Get (Cars.WebApi)'
+2023-05-26 22:04:56.162 +06:00 [INF] Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Cars.Application.Cars.Queries.GetCarDetails.CarDetailsVm]] Get(System.Guid) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 22:04:56.168 +06:00 [INF] Cars Request: GetCarDetailsQuery "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Id":"d6cda8cb-416d-4e30-97c5-9d1522f73c94","$type":"GetCarDetailsQuery"}
+2023-05-26 22:04:56.171 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 22:04:56.214 +06:00 [INF] Executed DbCommand (6ms) [Parameters=[@__request_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Country", "c"."CreationDate", "c"."Details", "c"."EditDate", "c"."SerialNumber", "c"."Title", "c"."UsageBenzin", "c"."UserId"
+FROM "Car" AS "c"
+WHERE "c"."Id" = @__request_Id_0
+LIMIT 1
+2023-05-26 22:04:56.229 +06:00 [INF] Executing OkObjectResult, writing value of type 'Cars.Application.Cars.Queries.GetCarDetails.CarDetailsVm'.
+2023-05-26 22:04:56.239 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Get (Cars.WebApi) in 76.3405ms
+2023-05-26 22:04:56.239 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Get (Cars.WebApi)'
+2023-05-26 22:04:56.241 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44397/api/1.0/Car/d6cda8cb-416d-4e30-97c5-9d1522f73c94 - - - 200 - application/json;+charset=utf-8 112.5566ms
+2023-05-26 22:05:35.606 +06:00 [INF] Request starting HTTP/2 DELETE https://localhost:44397/api/1.0/Car/d6cda8cb-416d-4e30-97c5-9d1522f73c94 - -
+2023-05-26 22:05:35.606 +06:00 [INF] CORS policy execution successful.
+2023-05-26 22:05:35.631 +06:00 [INF] Successfully validated the token.
+2023-05-26 22:05:35.631 +06:00 [INF] Authorization was successful.
+2023-05-26 22:05:35.631 +06:00 [INF] Executing endpoint 'Cars.WebApi.Controllers.CarController.Delete (Cars.WebApi)'
+2023-05-26 22:05:35.634 +06:00 [INF] Route matched with {action = "Delete", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid) on controller Cars.WebApi.Controllers.CarController (Cars.WebApi).
+2023-05-26 22:05:35.653 +06:00 [INF] Cars Request: DeleteCarCommand "a86a3161-8791-4728-93d1-04bc1f6276f8" {"UserId":"a86a3161-8791-4728-93d1-04bc1f6276f8","Id":"d6cda8cb-416d-4e30-97c5-9d1522f73c94","$type":"DeleteCarCommand"}
+2023-05-26 22:05:35.655 +06:00 [INF] Entity Framework Core 5.0.5 initialized 'CarsDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-05-26 22:05:35.684 +06:00 [INF] Executed DbCommand (3ms) [Parameters=[@__get_Item_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Country", "c"."CreationDate", "c"."Details", "c"."EditDate", "c"."SerialNumber", "c"."Title", "c"."UsageBenzin", "c"."UserId"
+FROM "Car" AS "c"
+WHERE "c"."Id" = @__get_Item_0
+LIMIT 1
+2023-05-26 22:05:35.708 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?'], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Car"
+WHERE "Id" = @p0;
+SELECT changes();
+2023-05-26 22:05:35.740 +06:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2023-05-26 22:05:35.741 +06:00 [INF] Executed action Cars.WebApi.Controllers.CarController.Delete (Cars.WebApi) in 106.0342ms
+2023-05-26 22:05:35.741 +06:00 [INF] Executed endpoint 'Cars.WebApi.Controllers.CarController.Delete (Cars.WebApi)'
+2023-05-26 22:05:35.741 +06:00 [INF] Request finished HTTP/2 DELETE https://localhost:44397/api/1.0/Car/d6cda8cb-416d-4e30-97c5-9d1522f73c94 - - - 204 - - 134.7933ms
